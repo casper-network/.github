@@ -134,22 +134,18 @@ If you are interested in testing our documentation, guides, and developer tools,
 
 We would love to know your insights/feedback from your testing. You can let us know by submitting issues in the respective repositories on GitHub.
 
-3. Enhancement Proposals (CEP)
-
-To propose major changes or enhancements to the Casper Node, we encourage you to submit a Casper Enhancement Proposal (CEP). The CEP process is designed to provide a structured approach to new features, enabling organized discussion and review.
-
 ### 6. Submit a Casper Enhancement Proposal (CEP)
 
 1. **Familiarize Yourself**: Review the [CEP README](https://github.com/casper-network/ceps/blob/main/README.md) to understand the process and what is expected in a CEP.
 2. **Draft Your Proposal**: Write a draft of your CEP using the provided [template](https://github.com/casper-network/ceps/blob/main/0000-template.md).
-3. **Submit a Pull Request**: Open a PR in the [CEP repository](https://github.com/casper-network/ceps) with your proposal. Ensure you follow all guidelines for submission.
+3. **Submit a Pull Request**: Open a PR in the [CEP repository](https://github.com/casper-network/ceps) with your proposal. Please make sure you follow all submission guidelines.
 4. **Discussion and Review**: The community and maintainers will review your proposal. Be open to feedback and be prepared to make revisions.
 5. **Final Decision**: After discussion, the maintainers will decide whether to accept the CEP. If accepted, it will be merged into the repository and implemented as planned.
 
 
-### 7. Contributing New Projects to Casper Network
+### 7. Contributing New Projects to the Casper Ecosystem
 
-This section is specifically created to explain the mandatory requirements that the Community Developers/Teams are required to follow when contributing new projects to the Casper Network.
+This section is specifically created to explain the mandatory requirements that the Community Developers/Teams must follow when contributing new projects to the Casper Network.
 
 The contributing team is expected to follow the below Open-Source Software Compliance in accordance with the other Casper-specific contributions and standards outlined in the previous sections of this document.
 
