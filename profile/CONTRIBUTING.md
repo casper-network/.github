@@ -72,42 +72,42 @@ As a contributor, you are expected to `fork` a repository, work on your own `for
 
 #### Prerequisites:
 
-**Step 1:** Create a fork of the `dev`, `feature`, or `release-feature` branch to which you want to add your changes.
+- Create a fork of the `dev`, `feature`, or `release-feature` branch to which you want to add your changes.
 
-Please note that the naming convention followed for a Release/Feature branch includes:
+- Please note that the naming convention followed for a Release/Feature branch includes:
 
-- `release-1.4.6` in case of Major releases (e.g., Protocol release).
-- `feat-1.5.0` in case of Feature releases.
+  - `release-1.4.6` in case of Major releases (e.g., Protocol release).
+  - `feat-1.5.0` in case of Feature releases.
 
-**Step 2:** Clone the forked repository, add code, commit, and push.
+- Clone the forked repository, add code, commit, and push.
 
-**Step 3:** Enable Automated Testing [Refer to GitHub’s [Automating builds and tests - GitHub Docs](https://docs.github.com/en/actions/automating-builds-and-tests) for more information].
+- Enable Automated Testing [Refer to GitHub’s [Automating builds and tests - GitHub Docs](https://docs.github.com/en/actions/automating-builds-and-tests) for more information].
 
-**Step 4:** Verify the tests have been automatically run.
+- Verify the tests have been automatically run.
 
-- **Step 4.1:** Add a test that reveals a problem.
-  - **Step 4.1.2:** Open an issue on GitHub.
-  - **Step 4.1.3:** Fix the broken test and proceed to Step 4.2.
+  - Add a test that reveals a problem.
+    - Open an issue on GitHub.
+    - Fix the broken test and proceed to Step 4.2.
 
-**Step 4.2:** Open a Pull Request.
+- Open a Pull Request.
 
-**Step 5:** The Casper Team will review the Pull Request and accept it if the changes are in line with Casper’s expected code quality, test coverage, and security standards.
+- The Casper Team will review the Pull Request and accept it if the changes are in line with Casper’s expected code quality, test coverage, and security standards.
 
-- **Step 5.1:** Git Rules
+  - Git Rules
 
-    We use `gitchangelog` for all of our repositories for change logs. For that, we need to adhere to the following convention when writing commit messages. Your pull request may not be merged if you are not following this convention.
+    - We use `gitchangelog` for all of our repositories for change logs. For that, we need to adhere to the following convention when writing commit messages. Your pull request may not be merged if you are not following this convention.
 
-- **Step 5.2:** Commit Message Convention
-    The following suggestions might be useful to add to your commit messages. You might want to separate your commits into rough sections:
-  - by purpose (for example: new, fix, change...).
-  - by the entity (for example: doc, sdk, code...).
-  - by the audience (for example: dev, tester, users...).
+  - Commit Message Convention
+    - The following suggestions might be useful to add to your commit messages. You might want to separate your commits into rough sections:
+      - by purpose (for example: new, fix, change...).
+      - by the entity (for example: doc, sdk, code...).
+      - by the audience (for example: dev, tester, users...).
   
-  Additionally, you might want to tag some commits:
-  - as `minor`, for commits that shouldn’t get output to your changelog (cosmetic changes, small typo in comments...).
-  - as `refactor`, if you don’t have any significant feature changes.
+    - Additionally, you might want to tag some commits:
+      - as `minor`, for commits that shouldn’t get output to your changelog (cosmetic changes, small typo in comments...).
+      - as `refactor`, if you don’t have any significant feature changes.      
       Thus, this should not also be part of the changelog displayed to a final user but might be of some interest if you have a developer changelog.
-  - you could also tag with `api` to mark API changes or if it's a new API or similar.
+      - you could also tag with `api` to mark API changes or if it's a new API or similar.
 
 **Casper Pull Request Workflow:**
 
@@ -115,7 +115,7 @@ Please refer to the Casper Pull Request Workflow below;
 
 ![Casper PR Workflow](images/casper_pull_request_flow.png)
 
-- **Step 5.3:** Best Practices
+- Best Practices
   - Code in the Casper project should meet the style guidelines with sufficient test cases, descriptive commit messages, evidence that the contribution does not break any compatibility commitments or cause adverse feature interactions, and evidence of high-quality peer review.
   - Casper recommends small, frequent PRs over large, infrequent ones.
   - When you notice those dependencies, put the fix into a commit of its own, then check out a new branch, and cherry-pick it.
